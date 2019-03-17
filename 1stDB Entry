@@ -16,7 +16,7 @@ db = client['firstdb'] # database aanmaken
 # db.create_collection('secondcol') # gebeurt hieronder al
 collection = db['secondcol']
 
-response = requests.get('https://amerpodia.yesplan.nl/api/events/date%3A02-05-2017?api_key=030A44EB593240A3207CF3E245C8D291') 
+
 
 Resp = response.json()
 
